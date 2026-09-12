@@ -1,0 +1,6 @@
+{
+  "name": "Antojitos Inaf Lafken - Fast Food",
+  "description": "Carta y pedidos de comida rápida para Antojitos Inaf Lafken con extras y envío directo a WhatsApp",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

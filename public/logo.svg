@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Top arc for ANTOJITOS -->
+    <path id="top-arc" d="M 125,500 A 385,385 0 0,1 875,500" fill="none" />
+    <!-- Bottom arc for INAF LAFKEN -->
+    <path id="bottom-arc" d="M 175,540 A 385,385 0 0,0 825,540" fill="none" />
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&amp;family=Balsamiq+Sans:wght@700&amp;display=swap');
+      
+      .logo-text {
+        font-family: 'Patrick Hand', 'Balsamiq Sans', 'Comic Sans MS', cursive, sans-serif;
+        font-weight: 900;
+        fill: #000000;
+      }
+      .logo-text-top {
+        font-size: 110px;
+        letter-spacing: 14px;
+      }
+      .logo-text-bottom {
+        font-size: 92px;
+        letter-spacing: 12px;
+      }
+    </style>
+  </defs>
+
+  <!-- Yellow circle background with bold black border -->
+  <circle cx="500" cy="500" r="470" fill="#FFDE00" stroke="#000000" stroke-width="32" />
+
+  <!-- Inner black concentric circle -->
+  <circle cx="500" cy="500" r="342" fill="none" stroke="#000000" stroke-width="20" />
+
+  <!-- Left Heart (9 o'clock) -->
+  <path d="M 94,498 C 84,484 66,486 58,499 C 50,512 60,528 94,545 C 128,528 138,512 130,499 C 122,486 104,484 94,498 Z" fill="#000000" />
+  
+  <!-- Right Heart (3 o'clock) -->
+  <path d="M 906,498 C 896,484 878,486 870,499 C 862,512 872,528 906,545 C 940,528 950,512 942,499 C 934,486 916,486 906,498 Z" fill="#000000" />
+
+  <!-- Top Curved Text: ANTOJITOS -->
+  <text class="logo-text logo-text-top">
+    <textPath href="#top-arc" startOffset="50%" text-anchor="middle">
+      ANTOJITOS
+    </textPath>
+  </text>
+
+  <!-- Bottom Curved Text: INAF LAFKEN -->
+  <text class="logo-text logo-text-bottom">
+    <textPath href="#bottom-arc" startOffset="50%" text-anchor="middle">
+      INAF LAFKEN
+    </textPath>
+  </text>
+
+  <!-- Central Graphic: Saucer, Cup, Steam, and Wheat Sprig -->
+  <!-- Steam lines rising from the cup -->
+  <!-- Left Steam -->
+  <path d="M 430,440 C 408,390 445,350 415,295 C 390,250 425,200 410,150" fill="none" stroke="#000000" stroke-width="13" stroke-linecap="round" />
+  <!-- Middle Steam (tallest) -->
+  <path d="M 465,435 C 440,375 485,325 450,260 C 425,205 460,155 440,95" fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round" />
+  <!-- Right Steam -->
+  <path d="M 500,440 C 475,385 520,340 490,280 C 465,230 500,185 480,135" fill="none" stroke="#000000" stroke-width="13" stroke-linecap="round" />
+
+  <!-- Cup Body -->
+  <path d="M 335,465 C 340,555 425,605 500,605 C 570,605 628,555 632,465" fill="#FFDE00" stroke="#000000" stroke-width="15" stroke-linecap="round" />
+  <!-- Cup Rim -->
+  <path d="M 335,465 C 410,488 520,488 632,465" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" />
+
+  <!-- Cup Handle -->
+  <path d="M 622,472 C 675,475 705,510 682,548 C 658,580 615,568 595,556" fill="none" stroke="#000000" stroke-width="15" stroke-linecap="round" />
+
+  <!-- Saucer Outline -->
+  <ellipse cx="465" cy="608" rx="190" ry="34" fill="#FFDE00" stroke="#000000" stroke-width="15" />
+
+  <!-- Saucer Underline / Shadow Crescent linking to Wheat -->
+  <path d="M 315,610 C 400,652 560,652 660,610 C 675,635 635,665 510,665 C 385,665 310,635 315,610 Z" fill="#000000" />
+
+  <!-- Wheat stalk (Espiga de trigo) extending to the right -->
+  <g>
+    <!-- Central Stem -->
+    <path d="M 630,626 Q 730,648 815,608" fill="none" stroke="#000000" stroke-width="13" stroke-linecap="round" />
+    
+    <!-- Stylized Wheat Grains / Espiga -->
+    <path d="M 660,610 C 680,580 705,585 710,600 C 695,620 675,620 660,610 Z" fill="#000000" />
+    <path d="M 672,628 C 692,656 718,652 722,636 C 712,616 690,616 672,628 Z" fill="#000000" />
+    <path d="M 705,600 C 725,570 750,575 755,590 C 740,610 720,610 705,600 Z" fill="#000000" />
+    <path d="M 718,620 C 738,646 764,642 768,626 C 758,606 738,606 718,620 Z" fill="#000000" />
+    <path d="M 750,590 C 770,565 790,570 795,582 C 785,600 765,600 750,590 Z" fill="#000000" />
+    <path d="M 762,610 C 782,632 804,628 808,614 C 798,596 778,596 762,610 Z" fill="#000000" />
+    <path d="M 795,595 C 820,585 840,595 836,605 C 822,614 806,610 795,595 Z" fill="#000000" />
+  </g>
+</svg>
