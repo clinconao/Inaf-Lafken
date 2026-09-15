@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/nombre-de-tu-repo/', // Reemplaza exactamente con el nombre de tu repositorio en GitHub
+    base: '/Inaf-Lafken/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
